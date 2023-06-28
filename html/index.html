@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Antonio Šalov">
+    <meta name="descripion" content="Početna stranica hotela">
+    <meta name="keywords" content="Hotel, Morska, Oaza">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Morska Oaza | Početna</title>
+    <link rel="stylesheet" type="text/css" href="css/asalov21.css">
+    <link rel="stylesheet" type="text/css" href="css/asalov21_responzivni_dizajn.css">
+    <script type="text/javascript" src="/javascript"></script>
+</head>
+<body>
+    <header>
+        <button id="prebaciTemuGumb" type="button">Prebaci se na x temu</button>
+        <img id="banner" src="dokumenti/slike/banner.jpeg" alt="Banner">
+        <a href="#"><img id="logo" src="dokumenti/slike/logo.PNG" alt="Logo hotela"></a>
+        <h1 id="naslov" class="serif">Hotel Morska Oaza</h1>
+    </header>
+    <nav>
+        <a id="izbornikNaslov">Izbornik</a>
+        <a id="trenutnaStranica" class="linkStranica" href="#">Početna</a>
+        <a class="linkStranica" href="/autor">Autor</a>
+        <a class="linkStranica" href="/dokumentacija">Dokumentacija</a>
+        <a href="/rezervacija" class="linkStranica">Rezervacija</a>
+        <a href="/kontakt" class="linkStranica">Kontakt</a>
+        <a href="dinamicna" class="linkStranica">Cjenik</a>
+        <a href="/api/rezervacije" class="linkStranica">REST servis</a>
+    </nav>
+    <main>
+        <h2 id="akcijeNaslov" class="serif">Akcijske ponude</h2>
+        <div id="akcijskePonude">
+            <section class="ponuda">
+                <figure>
+                    <figcaption class="naslovPonuda serif">Polupansion za jednu osobu</figcaption>
+                    <img class="slikePonuda" src="dokumenti/slike/jednokrevetna.jpg" alt="Jednokrevetna soba">
+                </figure>
+                Jednokrevetna soba s pogledom na more je idealan smještaj za jednu osobu koja želi uživati u prekrasnom pogledu na more. Ova soba je opremljena sa svim osnovnim sadržajima koji su potrebni za ugodan boravak, uključujući udoban krevet, ormar za odlaganje osobnih stvari, klima uređaj i TV. Pogled s balkona sobe na more je neprocjenjiv i pruža izvanredan osjećaj smiraja i opuštanja. Polupansion uključuje doručak i večeru, što znači da će gost moći uživati u ukusnoj hrani u restoranu hotela. Doručak se sastoji od raznih jela, uključujući jaja, kobasice, svježe voće, pekarske proizvode, kavu, čaj i sokove. Večera se obično sastoji od nekoliko slijedova, s raznim opcijama za predjelo, glavno jelo i desert.
+                <a class="detaljiPonude" href="/jednokrevetna">Saznaj više</a>
+            </section>
+            <section class="ponuda">
+                <figure>
+                    <figcaption class="naslovPonuda serif">Obiteljski puni pansion</figcaption>
+                    <img class="slikePonuda" src="dokumenti/slike/obiteljska.jpg" alt="Obiteljska soba">
+                </figure>
+                Ova prostrana obiteljska hotelska soba s pogledom na more savršena je za obitelj ili grupu prijatelja koja traži udoban smještaj tijekom odmora. Soba se sastoji od ukupno 4 kreveta raspoređenih u različitim konfiguracijama, što omogućuje fleksibilnost u smještaju obitelji ili grupe. Soba je opremljena sa svim potrebnim sadržajima, uključujući klima uređaj, ormar, TV, te vlastitu kupaonicu s tušem ili kadom. Cijena ove sobe uključuje puni pansion, što znači da će gosti uživati u lokalnoj mediteranskoj hrani tijekom boravka. Doručak, ručak i večera su uključeni u cijenu, a svi obroci pripremaju se od svježih namirnica, lokalno uzgojenog voća i povrća, svježeg ulova ribe i drugih specijaliteta. Gosti mogu očekivati ​​raznolik izbor jela s naglaskom na mediteranskoj kuhinji, uključujući domaća jela, salate, juhe, tjesteninu, meso i ribu, kao i ukusne deserte.
+                <a class="detaljiPonude" href="/obiteljska">Saznaj više</a>
+            </section>
+            <section class="ponuda">
+                <figure>
+                    <figcaption class="naslovPonuda serif">Penthouse</figcaption>
+                    <img class="slikePonuda" src="dokumenti/slike/penthouse.jpg" alt="Penthouse">
+                </figure>
+                Ovaj luksuzni penthouse smješten je na vrhu hotela s prekrasnim panoramskim pogledom na cijeli zaljev. Penthouse se prostire na više od 200 kvadratnih metara i ima veliku terasu s koje se pruža nezaboravan pogled na more i obalu. Ovo je idealno mjesto za opuštanje i uživanje u prekrasnom okruženju. Penthouse ima mnoge prostorije koje će zadovoljiti potrebe i želje gostiju. Sastoji se od dnevnog boravka, kuhinje, blagovaonice, tri spavaće sobe i tri kupaonice, što znači da može ugostiti mnogo ljudi. Sve sobe su elegantno uređene s modernim namještajem i luksuznom posteljinom. Usluga smještaja u ovom penthouseu uključuje poslugu koja je dostupna 24 sata dnevno i koja će se pobrinuti za sve potrebe gostiju. Gosti mogu uživati u mnogim dodatnim aktivnostima koje ovaj penthouse nudi, uključujući privatni bazen, jacuzzi, teretanu i veliki ekran TV s raznim kanalima.
+                <a class="detaljiPonude" href="/penthouse">Saznaj više</a>
+            </section>
+        </div>
+
+        <h2 id="restoranH2" class="serif">Hotelski restoran</h2>
+        <figure>
+            <img id="restoranSlika" src="dokumenti/slike/restoran.jpg" usemap="#image-map" alt="Ponuda restorana">
+            <figcaption id="restoranOpis">Klikom na svako od 4 prikazana jela iz dnevne ponude te klikom na umak u gornjem desnom kutu možete saznati više detalja o odabranom jelu</figcaption>
+        </figure>
+        <map name="image-map">
+            <area target="_blank" alt="jelo1" title="jelo1" href="https://www.woolworths.com.au/shop/recipes/roast-pumpkin-feta-walnut-and-rocket-pizzas" coords="128,52,369,238" shape="rect">
+            <area target="_blank" alt="jelo2" title="jelo2" href="https://www.happycow.net/reviews/akkawy-berlin-165087" coords="412,49,638,231" shape="rect">
+            <area target="_blank" alt="jelo3" title="jelo3" href="https://www.afarmgirlsdabbles.com/air-fryer-hard-boiled-eggs/" coords="124,280,370,463" shape="rect">
+            <area target="_blank" alt="jelo4" title="jelo4" href="https://ekilu.com/recipe/cherry-tomato-and-cream-cheese-toast" coords="410,279,634,462" shape="rect">
+            <area target="_blank" alt="umak" title="umak" href="https://www.downredbuddrive.com/white-gravy-recipe/" coords="718,2,695,48,697,93,717,129,756,147,806,143,805,2" shape="poly">
+        </map>
+
+        <h2 id="promoH2" class="serif">Promo video</h2>
+        <video id="promo" controls src="dokumenti/multimedija/promo.mp4"></video>
+
+        <h2 id="karteH2" class="serif">Lokacija</h2>
+        <iframe title="karta" id="karta" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d90959.82364381674!2d14.403293371372214!3d45.35330182736472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shr!2shr!4v1680447719918!5m2!1shr!2shr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2 id="galerijaH2" class="serif">Galerija</h2>
+        <section id="galerijaOkvir">
+            <figure>
+                <a target="_blank" href="https://www.tripadvisor.it/LocationPhotoDirectLink-g194694-d576882-i181283361-Hotel_Parigi-Bordighera_Italian_Riviera_Liguria.html">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija1.jpg" alt="Jednokreventna soba">
+                </a>
+                <figcaption class="galerijaNaziv">Jednokreventna soba</figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://hoteloceanis.eu/rooms/superior-double-room-with-sea-view/">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija2.jpg" alt="Dvokrevetna soba">
+                </a>
+                <figcaption class="galerijaNaziv">Dvokrevetna soba</figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://cosybeachhotel.com/room/superior-seaview-family-room/">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija3.jpg" alt="Obiteljska soba">
+                </a>
+                <figcaption class="galerijaNaziv">Obiteljska soba</figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g668422-d496107-Reviews-Anthemus_Sea_Beach_Hotel_Spa-Nikiti_Sithonia_Halkidiki_Region_Central_Macedonia.html">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija4.jpg" alt="Hotel s mora">
+                </a>
+                <figcaption class="galerijaNaziv">Pogled na hotel s mora</figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://olympiavodice.hr/en/restaurants-bars/restaurant-sky#">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija5.jpg" alt="Restoran">
+                </a>
+                <figcaption class="galerijaNaziv">Hotelski restoran</figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://www.tripadvisor.com/Hotel_Review-g668422-d496107-Reviews-Anthemus_Sea_Beach_Hotel_Spa-Nikiti_Sithonia_Halkidiki_Region_Central_Macedonia.html">
+                    <img class="galerijaSlika" src="dokumenti/slike/galerija6.jpg" alt="Hotel iz zraka">
+                </a>
+                <figcaption class="galerijaNaziv">Pogled na hotel iz zraka</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer id="footerIndex">
+        <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="byNcSa" src="dokumenti/slike/by-nc-sa.png" alt="Licenca CC BY-NC-SA"></a>
+        &copy; 2023 Antonio Šalov
+        <a target="_blank" href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_03/asalov21/html/index.html"><img id="html5Val" src="dokumenti/slike/html5.png" alt="HTML5 Validator"></a>
+    </footer>
+</body>
+</html>

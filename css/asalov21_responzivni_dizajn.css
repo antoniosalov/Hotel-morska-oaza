@@ -1,0 +1,447 @@
+@media (max-width: 480px){
+
+    #naslov.serif{
+        font-size: 1.4rem;
+        margin-left: 180px;
+    }
+
+    #logo{
+        margin-left: 60px;
+    }
+
+    #prebaciTemuGumb{
+        font-size: 0.75rem;
+    }
+
+    #brojRezervacija{
+        font-size: 0.75rem;
+    }
+
+    #restoranSlika{
+        width: 400px;
+        margin: 50px 8% 0px;
+    }
+
+    #promo{
+        width: 400px;
+        margin: 50px 8%;
+    }
+
+    #karta{
+        width: 400px;
+        margin: 50px 8%;
+    }
+
+    nav{
+        margin: 50px 2%;
+    }
+
+    nav>.linkStranica{
+        width: 98%;
+        display: none;
+    }
+
+    #izbornikNaslov{
+        background-color: #3a506b;
+        text-decoration: none;
+        width: 98%;
+        display: block;
+        float: left;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0px;
+        font-size: 1.5rem;
+        color: #6fffe9;
+        transition: 0.5s;
+        border: 2px solid #3a506b;
+    }
+
+    #izbornikNaslov:hover{
+        background-color: #6fffe9;
+        color: #0b132b;
+        border: 2px solid #6fffe9;
+    }
+
+    nav:hover > .linkStranica{
+        display: block;
+    }
+
+    nav:hover + main > h2{
+        margin-top: 590px;
+    }
+
+    #akcijeNaslov{
+        font-size: 1.5rem;
+    }
+
+    .ponuda{
+        float: none;
+        width: 88%;
+    }
+
+    #restoranH2{
+        margin-top: 200px;
+        font-size: 1.5rem;
+    }
+
+    #promoH2{
+        margin-top: 200px;
+        font-size: 1.5rem;
+    }
+
+    #karteH2{
+        margin-top: 200px;
+        font-size: 1.5rem;
+    }
+
+    #galerijaH2{
+        margin-top: 200px;
+        font-size: 1.5rem;
+    }
+
+    #galerijaOkvir figure{
+        float: none;
+        width: 95%;
+    }
+
+    .galerijaSlika:hover{
+        transform: none;
+    }
+
+    #footerAutor{
+        position: initial;
+    }
+
+    #rezervacija{
+        width: 90%;
+    }
+
+    #rezervacija input, #rezervacija select{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    table caption{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    .stay{
+        display: table-cell;
+    }
+
+    table th, table td{
+        display: none;
+    }
+
+    #kontakt{
+        display: initial;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px){
+
+    /* body{
+       background-color: white;
+    } */
+
+    #izbornikNaslov{
+        display: none;
+    }
+
+    #naslov.serif{
+        font-size: 2rem;
+        /* color: #0b132b; */
+    }
+
+    /* #banner{
+        opacity: 50%;
+    } */
+
+    nav>.linkStranica{
+        width: 24%;
+        font-size: 1.2rem;
+        /* background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #6fffe9; */
+    }
+
+    a[href="/kontakt"]{
+        margin-left: 10%;
+    }
+
+    /* .linkStranica:hover{
+        background-color: #3a506b;
+        color: #6fffe9;
+        border-color: #3a506b;
+    } */
+
+    /* #trenutnaStranica{
+        border-color: #3a506b;
+    } */
+
+    h2{
+        font-size: 1.5rem;
+        margin-top: 300px;
+        /* background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #0b132b; */
+    }
+
+    .ponuda{
+        width: 25%;
+        /* border-color: #3a506b;
+        color: #0b132b; */
+    }
+
+    .naslovPonuda{
+        font-size: 1rem;
+        /* color: #0b132b; */
+    }
+
+    .detaljiPonude{
+        font-size: 1rem;
+        /* background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+        font-weight: bold; */
+    }
+
+    /* .detaljiPonude:hover{
+        background-color: #3a506b;
+        color: #6fffe9;
+    } */
+
+    #restoranH2{
+        margin-top: 1200px;
+    }
+
+    #restoranSlika{
+        width: 500px;
+        margin: 50px 24.5% 0px;
+    }
+
+    /* #restoranOpis{
+        color: #0b132b;
+    } */
+
+    #detaljnoRezerviraj{
+        font-size: 0.75rem;
+    }
+
+    #listaAutor{
+        width: 50%;
+    }
+
+    #rezervacija{
+        margin-top: 300px;
+    }
+
+    #kontakt{
+        margin-top: 300px;
+    }
+
+    table caption{
+        font-size: 1.25rem;
+        margin-top: 50px;
+    }
+
+    table{
+        font-size: 0.75rem;
+    }
+
+    table thead tr th{
+        font-size: 1rem;
+    }
+
+    #promo{
+        width: 500px;
+        margin: 50px 25%;
+    }
+
+    #karta{
+        margin: 50px 25%;
+        width: 500px;
+    }
+
+    #galerijaOkvir figure{
+        width: 30%;
+        margin: 50px 10%;
+    }
+
+    #galerijaOkvir figure:nth-of-type(5){
+        float: right;
+    }
+
+    /* .galerijaNaziv{
+        color: #0b132b;
+    }
+
+    main~footer{
+        color: #0b132b;
+    } */
+
+    #footerIndex{
+        margin-top: 1100px;
+    }
+
+    #listaAutor{
+        /* color: #0b132b !important; */
+        font-size: 0.75rem !important;
+        width: 50%;
+    }
+
+    .detaljnoOpis{
+        /* color: #0b132b; */
+        font-size: 1rem;
+    }
+
+    /* #detaljnoRezerviraj{
+        background-color:#6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+    }
+
+    #detaljnoRezerviraj:hover{
+        background-color: #3a506b;
+        color: #6fffe9;
+    }
+
+    table, th, td{
+        border-color: #0b132b;
+    }
+
+    table{
+        color: #0b132b;
+    }
+
+    table caption{
+        background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+    }
+
+    table tbody tr:hover{
+        color: initial;
+        background-color: #6fffe9;
+    }
+
+    table tbody tr:nth-child(2n){
+        background-color: #6fffe9;
+    }
+
+    table tbody tr:nth-child(2n):hover{
+        background-color: white;
+    }
+
+    #dodatnoCjenik{
+        color: #0b132b;
+    }
+    
+    #rezervacija{
+        color: #0b132b;
+    }
+
+    #rezervacija fieldset{
+        border-color: #0b132b;
+    }
+
+    #rezervacija legend{
+        color: #0b132b;
+    }
+
+    #rezervacija input, #rezervacija select{
+        color: #0b132b;
+        background-color: #6fffe9;
+        border-color: #3a506b !important;
+    }
+
+    ::-webkit-calendar-picker-indicator{
+        filter: initial;
+    }
+
+    #rezervacija input[type="tel"]::placeholder{
+        color: #0b132b;
+    }
+
+    #rezervacija input[type="submit"], #rezervacija input[type="reset"]{
+        background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+    }
+
+    #rezervacija input[type="submit"]:hover, #rezervacija input[type="reset"]:hover{
+        background-color: #3a506b;
+        color: #6fffe9;
+    }
+
+    #kontakt{
+        color: #0b132b;
+    }
+
+    #kontakt fieldset{
+        border-color: #0b132b;
+    }
+
+    #kontakt legend{
+        color: #0b132b;
+    }
+
+    #kontakt input, #kontakt textarea{
+        background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+    }
+
+    #kontakt input::placeholder, #kontakt textarea::placeholder{
+        color: #0b132b;
+    }
+
+    #kontakt input[type="submit"]{
+        background-color: #6fffe9;
+        color: #0b132b;
+        border-color: #3a506b;
+    }
+
+    #kontakt input[type="submit"]:hover{
+        background-color: #3a506b;
+        color: #6fffe9;
+    } */
+
+    #dokumentacija1, #dokumentacija2, #dokumentacija3{
+        /* color: #0b132b !important; */
+        margin-top: 250px;
+    }
+
+    #dokumentacija2{
+        margin-top: 50px !important;
+    }
+
+    #dokumentacija3{
+        margin-top: 250px !important;
+    }
+
+    /* #dokumentacija1 a, #dokumentacija2 a, #dokumentacija3 a{
+        color: #0b132b !important;
+    }
+
+    #dokumentacija1 a:hover, #dokumentacija2 a:hover, #dokumentacija3 a:hover{
+        color: #6fffe9 !important;
+    } */
+}
+
+@media (min-width: 1025px){
+
+    #izbornikNaslov{
+        display: none;
+    }
+
+    #rezervacija fieldset{
+        float: left;
+        margin-left: 50px;
+    }
+
+    #rezervacija input[type="submit"]{
+        margin-left: 50px;
+    }
+}

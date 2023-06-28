@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Antonio Šalov">
+    <meta name="descripion" content="Tablica usluga s pripadajućim cijenama">
+    <meta name="keywords" content="Cjenik, Soba, Obrok">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Morska Oaza | Cjenik</title>
+    <link rel="stylesheet" type="text/css" href="css/asalov21.css">
+    <link rel="stylesheet" type="text/css" href="css/asalov21_responzivni_dizajn.css">
+    <script type="text/javascript" src="/javascript"></script>
+</head>
+<body>
+    <header>
+        <button id="prebaciTemuGumb" type="button">Prebaci se na x temu</button>
+        <img id="banner" src="dokumenti/slike/banner.jpeg" alt="Banner">
+        <a href="/"><img id="logo" src="dokumenti/slike/logo.PNG" alt="Logo hotela"></a>
+        <h1 id="naslov" class="serif">Hotel Morska Oaza</h1>
+    </header>
+    <nav>
+        <a id="izbornikNaslov">Izbornik</a>
+        <a class="linkStranica" href="/">Početna</a>
+        <a class="linkStranica" href="autor">Autor</a>
+        <a class="linkStranica" href="dokumentacija">Dokumentacija</a>
+        <a href="rezervacija" class="linkStranica">Rezervacija</a>
+        <a href="/kontakt" class="linkStranica">Kontakt</a>
+        <a id="trenutnaStranica" href="#" class="linkStranica">Cjenik</a>
+        <a href="/api/rezervacije" class="linkStranica">REST servis</a>
+    </nav>
+    <main>

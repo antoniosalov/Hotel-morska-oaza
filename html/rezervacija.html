@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Antonio Šalov" />
+    <meta name="descripion" content="Obrazac za rezervaciju sobe" />
+    <meta name="keywords" content="Rezervacija, Podaci, Dolazak" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Morska Oaza | Rezervacija</title>
+    <link rel="stylesheet" type="text/css" href="css/asalov21.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/asalov21_responzivni_dizajn.css"
+    />
+    <script type="text/javascript" src="/javascript"></script>
+  </head>
+  <body>
+    <header>
+      <button id="prebaciTemuGumb" type="button">Prebaci se na x temu</button>
+      <div id="brojRezervacija"></div>
+      <img id="banner" src="dokumenti/slike/banner.jpeg" alt="Banner" />
+      <a href="/"
+        ><img id="logo" src="dokumenti/slike/logo.PNG" alt="Logo hotela"
+      /></a>
+      <h1 id="naslov" class="serif">Hotel Morska Oaza</h1>
+    </header>
+    <nav>
+      <a id="izbornikNaslov">Izbornik</a>
+      <a class="linkStranica" href="/">Početna</a>
+      <a class="linkStranica" href="autor">Autor</a>
+      <a class="linkStranica" href="dokumentacija"
+        >Dokumentacija</a
+      >
+      <a id="trenutnaStranica" href="#" class="linkStranica"
+        >Rezervacija</a
+      >
+      <a href="/kontakt" class="linkStranica">Kontakt</a>
+      <a href="dinamicna" class="linkStranica">Cjenik</a>
+      <a href="/api/rezervacije" class="linkStranica">REST servis</a>
+    </nav>
+    <main>
+      <div id="porukaGreske"></div>
+      <form
+        id="rezervacija"
+        action="/api/rezervacije"
+        method="post"
+        novalidate
+      >
+        <fieldset name="osobniPodaci">
+          <legend class="serif">Osobni podaci</legend>
+
+          <label for="ime">Ime:</label>
+          <input type="text" name="ime" id="ime" autocomplete="off" required />
+
+          <br /><label for="prezime">Prezime:</label>
+          <input
+            type="text"
+            name="prezime"
+            id="prezime"
+            autocomplete="off"
+            required
+          />
+
+          <br /><label for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="off"
+            required
+          />
+
+          <br /><label for="telefon">Broj mobitela:</label>
+          <input
+            type="tel"
+            name="telefon"
+            id="telefon"
+            pattern="[0][9][125789]-[0-9]{3}-[0-9]{4}"
+            autocomplete="off"
+            placeholder="09x-xxx-xxxx"
+          />
+        </fieldset>
+
+        <fieldset name="podaciRezervacija">
+          <legend class="serif">Podaci o rezervaciji</legend>
+          <label for="soba">Vrsta sobe:</label>
+          <select name="soba" id="soba">
+            <option value="jednokrevetnaEconomy">Jednokrevetna economy</option>
+            <option value="jednokrevetnaStandard">
+              Jednokrevetna standard
+            </option>
+            <option value="dvokrevetnaEconomy">Dvokrevetna economy</option>
+            <option value="dvokrevetnaStandard">Dvokrevetna standard</option>
+            <option value="trokrevetnaEconomy">Trokrevetna economy</option>
+            <option value="trokrevetnaStandard">Trokrevetna standard</option>
+            <option value="obiteljskaEconomy">Obiteljska economy</option>
+            <option value="obiteljskaStandard">Obiteljska standard</option>
+            <option value="obiteljskaPremium">Obiteljska premium</option>
+            <option value="penthouse">Penthouse</option>
+          </select>
+
+          <br /><label for="obrok">Opcija obroka:</label>
+          <select name="obrok" id="obrok">
+            <option value="bezObroka">Bez obroka</option>
+            <option value="polupansion">Polupansion</option>
+            <option value="puniPansion">Puni pansion</option>
+          </select>
+
+          <br /><label for="datum">Datum dolaska:</label>
+          <input type="date" name="datum" id="datum" required />
+
+          <br /><label for="vrijeme">Vrijeme dolaska:</label>
+          <input type="time" name="vrijeme" id="vrijeme" />
+
+          <br /><label for="broj">Broj noćenja:</label>
+          <input
+            type="number"
+            name="broj"
+            id="broj"
+            min="1"
+            autocomplete="off"
+            required
+          />
+        </fieldset>
+
+        <input id="gumbSubmit" type="submit" value="Rezerviraj" />
+        <input type="reset" value="Očisti" />
+      </form>
+    </main>
+    <footer>
+      <a
+        target="_blank"
+        href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        ><img
+          id="byNcSa"
+          src="dokumenti/slike/by-nc-sa.png"
+          alt="Licenca CC BY-NC-SA"
+      /></a>
+      &copy; 2023 Antonio Šalov
+      <a
+        target="_blank"
+        href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_03/asalov21/html/rezervacija.html"
+        ><img
+          id="html5Val"
+          src="dokumenti/slike/html5.png"
+          alt="HTML5 Validator"
+      /></a>
+    </footer>
+  </body>
+</html>

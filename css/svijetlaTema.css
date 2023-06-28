@@ -1,0 +1,239 @@
+body{
+    background-color: white !important;
+}
+
+#number404{
+    color: #0b132b !important;
+}
+
+#povratak{
+    color: #0b132b !important;
+}
+
+#povratak:hover{
+    color: #6fffe9 !important;
+}
+
+#naslov.serif{
+    color: #0b132b !important;
+}
+
+#banner{
+    opacity: 50% !important;
+}
+
+#prebaciTemuGumb{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#prebaciTemuGumb:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+}
+
+#brojRezervacija{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#izbornikNaslov{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #6fffe9 !important;
+}
+
+#izbornikNaslov:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+    border-color: #3a506b !important;
+}
+
+nav>.linkStranica{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #6fffe9 !important;
+}
+
+.linkStranica:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+    border-color: #3a506b !important;
+}
+
+#trenutnaStranica{
+    border-color: #3a506b !important;
+}
+
+h2{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #0b132b !important;
+}
+
+.ponuda{
+    border-color: #3a506b !important;
+    color: #0b132b !important;
+}
+
+.naslovPonuda{
+    color: #0b132b !important;
+}
+
+.detaljiPonude{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+    font-weight: bold !important;
+}
+
+.detaljiPonude:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important; 
+}
+
+#restoranOpis{
+    color: #0b132b !important;
+}
+
+.galerijaNaziv{
+    color: #0b132b !important;
+}
+
+main~footer{
+    color: #0b132b !important;
+}
+
+#listaAutor{
+    color: #0b132b !important;
+}
+
+.detaljnoOpis{
+    color: #0b132b !important;
+}
+
+#detaljnoRezerviraj{
+    background-color:#6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#detaljnoRezerviraj:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+}
+
+table, th, td{
+    border-color: #0b132b !important;
+}
+
+table{
+    color: #0b132b !important;
+}
+
+table caption{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+table tbody tr:hover{
+    color: initial !important;
+    background-color: #6fffe9 !important;
+}
+
+table tbody tr:nth-child(2n){
+    background-color: #6fffe9 !important;
+}
+
+table tbody tr:nth-child(2n):hover{
+    background-color: white !important;
+}
+
+#dodatnoCjenik{
+    color: #0b132b !important;
+}
+
+#rezervacija{
+    color: #0b132b !important;
+}
+
+#rezervacija fieldset{
+    border-color: #0b132b !important;
+}
+
+#rezervacija legend{
+    color: #0b132b !important;
+}
+
+#rezervacija input, #rezervacija select{
+    color: #0b132b !important;
+    background-color: #6fffe9 !important;
+    border-color: #3a506b !important;
+}
+
+::-webkit-calendar-picker-indicator{
+    filter: initial !important;
+}
+
+#rezervacija input[type="tel"]::placeholder{
+    color: #0b132b !important;
+}
+
+#rezervacija input[type="submit"], #rezervacija input[type="reset"]{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#rezervacija input[type="submit"]:hover, #rezervacija input[type="reset"]:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+}
+
+#kontakt{
+    color: #0b132b !important;
+}
+
+#kontakt fieldset{
+    border-color: #0b132b !important;
+}
+
+#kontakt legend{
+    color: #0b132b !important;
+}
+
+#kontakt input, #kontakt textarea{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#kontakt input::placeholder, #kontakt textarea::placeholder{
+    color: #0b132b !important;
+}
+
+#kontakt input[type="submit"]{
+    background-color: #6fffe9 !important;
+    color: #0b132b !important;
+    border-color: #3a506b !important;
+}
+
+#kontakt input[type="submit"]:hover{
+    background-color: #3a506b !important;
+    color: #6fffe9 !important;
+}
+
+#dokumentacija1, #dokumentacija2, #dokumentacija3{
+    color: #0b132b !important;
+}
+
+#dokumentacija1 a, #dokumentacija2 a, #dokumentacija3 a{
+    color: #0b132b !important;
+}
+
+#dokumentacija1 a:hover, #dokumentacija2 a:hover, #dokumentacija3 a:hover{
+    color: #6fffe9 !important;
+}

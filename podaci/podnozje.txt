@@ -1,0 +1,12 @@
+<div id="informacijeRetka"></div>
+        <p id="dodatnoCjenik">
+            <span class="ast">&ast;</span> - za ove ponude trenutno postoji i <a id="linkAkcije" href="/#akcijeNaslov">akcijska cijena</a>
+        </p>
+    </main>
+    <footer>
+        <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="byNcSa" src="dokumenti/slike/by-nc-sa.png" alt="Licenca CC BY-NC-SA"></a>
+        &copy; 2023 Antonio Šalov
+        <a target="_blank" href="https://validator.w3.org/check?uri="><img id="html5Val" src="dokumenti/slike/html5.png" alt="HTML5 Validator"></a>
+    </footer>
+</body>
+</html>

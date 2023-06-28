@@ -1,0 +1,62 @@
+[
+    {
+        "Vrsta sobe": "Jednokrevetna economy",
+        "Bez obroka": "40€",
+        "Polupansion": "66€",
+        "Puni pansion": "93€"
+    },
+    {
+        "Vrsta sobe": "Jednokrevetna standard",
+        "Bez obroka": "53€",
+        "Polupansion": "80€*",
+        "Puni pansion": "106€"
+    },
+    {
+        "Vrsta sobe": "Dvokrevetna economy",
+        "Bez obroka": "80€",
+        "Polupansion": "106€",
+        "Puni pansion": "133€"
+    },
+    {
+        "Vrsta sobe": "Dvokrevetna standard",
+        "Bez obroka": "93€",
+        "Polupansion": "120€",
+        "Puni pansion": "146€"
+    },
+    {
+        "Vrsta sobe": "Trokrevetna economy",
+        "Bez obroka": "120€",
+        "Polupansion": "146€",
+        "Puni pansion": "173€"
+    },
+    {
+        "Vrsta sobe": "Trokrevetna standard",
+        "Bez obroka": "133€",
+        "Polupansion": "160€",
+        "Puni pansion": "186€"
+    },
+    {
+        "Vrsta sobe": "Obiteljska economy",
+        "Bez obroka": "126€",
+        "Polupansion": "153€",
+        "Puni pansion": "180€"
+    },
+    {
+        "Vrsta sobe": "Obiteljska standard",
+        "Bez obroka": "146€",
+        "Polupansion": "173€",
+        "Puni pansion": "200€*"
+    },
+    {
+        "Vrsta sobe": "Obiteljska premium",
+        "Bez obroka": "166€",
+        "Polupansion": "193€",
+        "Puni pansion": "220€"
+    },
+    {
+        "Vrsta sobe": "Penthouse",
+        "Bez obroka": "1062€*",
+        "Polupansion": "1062€*",
+        "Puni pansion": "1062€*"
+    }
+   ]

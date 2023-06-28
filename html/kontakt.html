@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Antonio Šalov">
+    <meta name="descripion" content="Obrazac za kontaktiranje hotela">
+    <meta name="keywords" content="Kontakt, Predmet, Poruka">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Morska Oaza | Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="css/asalov21.css">
+    <link rel="stylesheet" type="text/css" href="css/asalov21_responzivni_dizajn.css">
+    <script type="text/javascript" src="/javascript"></script>
+</head>
+<body>
+    <header>
+        <button id="prebaciTemuGumb" type="button">Prebaci se na x temu</button>
+        <img id="banner" src="dokumenti/slike/banner.jpeg" alt="Banner">
+        <a href="/"><img id="logo" src="dokumenti/slike/logo.PNG" alt="Logo hotela"></a>
+        <h1 id="naslov" class="serif">Hotel Morska Oaza</h1>
+    </header>
+    <nav>
+        <a id="izbornikNaslov">Izbornik</a>
+        <a class="linkStranica" href="/">Početna</a>
+        <a class="linkStranica" href="autor">Autor</a>
+        <a class="linkStranica" href="dokumentacija">Dokumentacija</a>
+        <a href="rezervacija" class="linkStranica">Rezervacija</a>
+        <a id="trenutnaStranica" href="/kontakt" class="linkStranica">Kontakt</a>
+        <a href="dinamicna" class="linkStranica">Cjenik</a>
+        <a href="/api/rezervacije" class="linkStranica">REST servis</a>
+    </nav>
+    <main>
+        <form id="kontakt" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post" novalidate>
+            <fieldset>
+                <legend class="serif">Kontakt</legend>
+                <input type="text" name="predmet" id="predmet" maxlength="30" placeholder="Predmet" required autocomplete="off">
+
+                <br><span id="naslovKategorija">Kategorija upita:</span>
+                <br><input type="radio" name="vrstaUpita" id="rezervacije" value="1"><span class="opisKategorija">Rezervacije</span>
+                <br><input type="radio" name="vrstaUpita" id="cijene" value="2"><span class="opisKategorija">Cijene</span>
+                <br><input type="radio" name="vrstaUpita" id="restoran" value="3"><span class="opisKategorija">Restoran</span>
+                <br><input type="radio" name="vrstaUpita" id="ostalo" value="4" checked><span class="opisKategorija">Ostalo</span>
+
+                <br><textarea name="poruka" id="poruka" cols="40" rows="10" maxlength="1000" placeholder="Poruka" required></textarea>
+                <div id="razmak"></div>    
+            </fieldset>
+            <input id="gumbSubmit" type="submit" value="Pošalji">
+        </form>
+    </main>
+    <footer>
+        <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="byNcSa" src="dokumenti/slike/by-nc-sa.png" alt="Licenca CC BY-NC-SA"></a>
+        &copy; 2023 Antonio Šalov
+        <a target="_blank" href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_03/asalov21/html/kontakt.html"><img id="html5Val" src="dokumenti/slike/html5.png" alt="HTML5 Validator"></a>
+    </footer>
+</body>
+</html>
